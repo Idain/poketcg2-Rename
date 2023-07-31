@@ -1,8 +1,8 @@
 Tilesets:
-	gfx_ptr Tileset000 ; TILESET_000
-	gfx_ptr Tileset001 ; TILESET_001
-	gfx_ptr Tileset002 ; TILESET_002
-	gfx_ptr Tileset003 ; TILESET_003
+	gfx_ptr TCGIslandTilesetGfx ; TILESET_000
+	gfx_ptr TCGIslandOAMGfx ; TILESET_001
+	gfx_ptr GRIslandTilesetGfx ; TILESET_002
+	gfx_ptr GRIslandOAMGfx ; TILESET_003
 	gfx_ptr Tileset004 ; TILESET_004
 	gfx_ptr Tileset005 ; TILESET_005
 	gfx_ptr Tileset006 ; TILESET_006
@@ -38,7 +38,7 @@ Tilesets:
 	gfx_ptr Tileset024 ; TILESET_024
 	gfx_ptr Tileset025 ; TILESET_025
 	gfx_ptr Tileset026 ; TILESET_026
-	gfx_ptr Tileset027 ; TILESET_027
+	gfx_ptr OverheadIslandsGfx ; TILESET_027
 	gfx_ptr Tileset028 ; TILESET_028
 	gfx_ptr Tileset029 ; TILESET_029
 	gfx_ptr Tileset02A ; TILESET_02A
@@ -118,12 +118,12 @@ Tilesets:
 	gfx_ptr Tileset074 ; TILESET_074
 	gfx_ptr Tileset075 ; TILESET_075
 	gfx_ptr Tileset076 ; TILESET_076
-	gfx_ptr Tileset077 ; TILESET_077
-	gfx_ptr Tileset078 ; TILESET_078
-	gfx_ptr Tileset079 ; TILESET_079
-	gfx_ptr Tileset07A ; TILESET_07A
-	gfx_ptr Tileset07B ; TILESET_07B
-	gfx_ptr Tileset07C ; TILESET_07C
+	gfx_ptr OWChestGfx ; TILESET_077
+	gfx_ptr OWPodDoorsGfx ; TILESET_078
+	gfx_ptr OWFireGfx ; TILESET_079
+	gfx_ptr OWStrongholdPlatformGfx ; TILESET_07A
+	gfx_ptr OWFortMedalsGfx ; TILESET_07B
+	gfx_ptr OWCastleMedalsGfx ; TILESET_07C
 	gfx_ptr Tileset07D ; TILESET_07D
 	gfx_ptr Tileset07E ; TILESET_07E
 	gfx_ptr Tileset07F ; TILESET_07F
@@ -324,9 +324,9 @@ Tilesets:
 	gfx_ptr Tileset142 ; TILESET_142
 	gfx_ptr Tileset143 ; TILESET_143
 	gfx_ptr Tileset144 ; TILESET_144
-	gfx_ptr Tileset145 ; TILESET_145
-	gfx_ptr Tileset146 ; TILESET_146
-	gfx_ptr Tileset147 ; TILESET_147
+	gfx_ptr OWWarpSparklesGfx ; TILESET_145
+	gfx_ptr OWGRBlimpGfx ; TILESET_146
+	gfx_ptr OWTractorBeamGfx ; TILESET_147
 	gfx_ptr Tileset148 ; TILESET_148
 	gfx_ptr Tileset149 ; TILESET_149
 	gfx_ptr Tileset14A ; TILESET_14A
@@ -420,9 +420,9 @@ Tilesets:
 	gfx_ptr Tileset1A2 ; TILESET_1A2
 	gfx_ptr Tileset1A3 ; TILESET_1A3
 	gfx_ptr Tileset1A4 ; TILESET_1A4
-	gfx_ptr Pikachu2CoinGfx ; TILESET_1A5
+	gfx_ptr Tcg1PikachuGfx ; TILESET_1A5
 	gfx_ptr Tileset1A6 ; TILESET_1A6
-	gfx_ptr Tileset1A7 ; TILESET_1A7
+	gfx_ptr SmallCoinsGfx ; TILESET_1A7
 	gfx_ptr ChanseyCoinGfx ; TILESET_1A8
 	gfx_ptr OddishCoinGfx ; TILESET_1A9
 	gfx_ptr CharmanderCoinGfx ; TILESET_1AA
@@ -447,30 +447,30 @@ Tilesets:
 	gfx_ptr GengarCoinGfx ; TILESET_1BD
 	gfx_ptr RaichuCoinGfx ; TILESET_1BE
 	gfx_ptr LugiaCoinGfx ; TILESET_1BF
-	gfx_ptr Tileset1C0 ; TILESET_1C0
-	gfx_ptr Tileset1C1 ; TILESET_1C1
-	gfx_ptr Tileset1C2 ; TILESET_1C2
-	gfx_ptr Tileset1C3 ; TILESET_1C3
-	gfx_ptr Tileset1C4 ; TILESET_1C4
-	gfx_ptr Tileset1C5 ; TILESET_1C5
-	gfx_ptr Tileset1C6 ; TILESET_1C6
-	gfx_ptr Tileset1C7 ; TILESET_1C7
-	gfx_ptr Tileset1C8 ; TILESET_1C8
-	gfx_ptr Tileset1C9 ; TILESET_1C9
-	gfx_ptr Tileset1CA ; TILESET_1CA
-	gfx_ptr Tileset1CB ; TILESET_1CB
-	gfx_ptr Tileset1CC ; TILESET_1CC
-	gfx_ptr Tileset1CD ; TILESET_1CD
-	gfx_ptr Tileset1CE ; TILESET_1CE
-	gfx_ptr Tileset1CF ; TILESET_1CF
-	gfx_ptr Tileset1D0 ; TILESET_1D0
-	gfx_ptr Tileset1D1 ; TILESET_1D1
-	gfx_ptr Tileset1D2 ; TILESET_1D2
-	gfx_ptr Tileset1D3 ; TILESET_1D3
-	gfx_ptr Tileset1D4 ; TILESET_1D4
-	gfx_ptr Tileset1D5 ; TILESET_1D5
-	gfx_ptr Tileset1D6 ; TILESET_1D6
-	gfx_ptr Tileset1D7 ; TILESET_1D7
+	gfx_ptr BeginningGfx ; TILESET_1C0
+	gfx_ptr LegendaryGfx ; TILESET_1C1
+	gfx_ptr FossilGfx ; TILESET_1C2
+	gfx_ptr PsychicGfx ; TILESET_1C3
+	gfx_ptr FlyingGfx ; TILESET_1C4
+	gfx_ptr RocketGfx ; TILESET_1C5
+	gfx_ptr AmbitionGfx ; TILESET_1C6
+	gfx_ptr PresentGfx ; TILESET_1C7
+	gfx_ptr ExpansionGfx ; TILESET_1C8
+	gfx_ptr JungleGfx ; TILESET_1C9
+	gfx_ptr MysteryGfx ; TILESET_1CA
+	gfx_ptr TeamRocketGfx ; TILESET_1CB
+	gfx_ptr BoosterOAMGfx ; TILESET_1CC
+	gfx_ptr TitleScreenGfx ; TILESET_1CD
+	gfx_ptr PressStartEnergiesGfx ; TILESET_1CE
+	gfx_ptr GBErrorGfx ; TILESET_1CF
+	gfx_ptr CreditsGfx ; TILESET_1D0
+	gfx_ptr BlackBoxBgGfx ; TILESET_1D1
+	gfx_ptr BlackBoxCardGfx ; TILESET_1D2
+	gfx_ptr BlackBoxEnvelopeGfx ; TILESET_1D3
+	gfx_ptr CoinWindowGfx ; TILESET_1D4
+	gfx_ptr TournamentTableGfx ; TILESET_1D5
+	gfx_ptr SlotsIconsBgGfx ; TILESET_1D6
+	gfx_ptr SlotsMessagesGfx ; TILESET_1D7
 	gfx_ptr Tileset1D8 ; TILESET_1D8
 	gfx_ptr Tileset1D9 ; TILESET_1D9
 	gfx_ptr Tileset1DA ; TILESET_1DA
@@ -483,13 +483,13 @@ Tilesets:
 	gfx_ptr Tileset1E1 ; TILESET_1E1
 	gfx_ptr Tileset1E2 ; TILESET_1E2
 	gfx_ptr Tileset1E3 ; TILESET_1E3
-	gfx_ptr Tileset1E4 ; TILESET_1E4
-	gfx_ptr Tileset1E5 ; TILESET_1E5
-	gfx_ptr Tileset1E6 ; TILESET_1E6
-	gfx_ptr Tileset1E7 ; TILESET_1E7
-	gfx_ptr Tileset1E8 ; TILESET_1E8
-	gfx_ptr Tileset1E9 ; TILESET_1E9
-	gfx_ptr Tileset1EA ; TILESET_1EA
+	gfx_ptr MinicomFullMailboxGfx ; TILESET_1E4
+	gfx_ptr MinicomCrossGfx ; TILESET_1E5
+	gfx_ptr MinicomMailboxGfx ; TILESET_1E6
+	gfx_ptr MinicomMailAnimGfx ; TILESET_1E7
+	gfx_ptr MinicomMailboxCopyGfx ; TILESET_1E8
+	gfx_ptr MinicomEnvelopeGfx ; TILESET_1E9
+	gfx_ptr DeckDiagnosisGfx ; TILESET_1EA
 	gfx_ptr Tileset1EB ; TILESET_1EB
 	gfx_ptr Tileset1EC ; TILESET_1EC
 	gfx_ptr Tileset1ED ; TILESET_1ED
