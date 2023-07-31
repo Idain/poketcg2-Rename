@@ -493,4 +493,4 @@ Tilesets:
 	gfx_ptr Tileset1EB ; TILESET_1EB
 	gfx_ptr Tileset1EC ; TILESET_1EC
 	gfx_ptr Tileset1ED ; TILESET_1ED
-	gfx_ptr Tileset1EE ; TILESET_1EE
+	gfx_ptr BrokenGrCoinGfx ; TILESET_1EE
